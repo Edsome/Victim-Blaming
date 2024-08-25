@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Victim Blaming</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/b5f23c0db8.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="./css/storiesStyle.css">
+        <script type="text/javascript" src="./js/mainJS.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.6.1.js"></script>
+    </head>
+
+    <body lang="en">
+    	<nav class="menu" id="theIcon"></nav>
+
+		<div style="margin: 5rem;">
+			<h1>An error occurred. (error 50x)</h1>
+			<p>Sorry, the page you are looking for is currently unavailable.<br/>
+			Please try again later.</p>
+			<p>If you are the system administrator of this resource then you should check
+			the error log for details.</p>
+			<p><em>Faithfully yours, nginx.</em></p>
+		</div>
+		
+		<script>
+			addText(".stage-button-more", "More");
+			initialize();
+			
+			let popNotify = setInterval(() => {
+				if (rollDie(0.4)) {
+					popNotification();
+					console.log("notification poped");
+				}
+				console.log("Die rolled");
+			}, 5000);
+		</script>
+    </body>
+</html>

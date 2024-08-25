@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Victim Blaming</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b5f23c0db8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="./css/literaturesStyle.css">
+        <script type="text/javascript" src="./js/mainJS.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.6.1.js"></script>
+    </head>
+
+    <body>
+        <nav class="menu" id="theIcon"></nav>
+
+        <div class="main-content unselectable">
+            <div class="content-selection">
+
+                <button class="content-block" onclick="generateLiteratureContent(0)">
+                    <h1>Victim Blaming?</h1>
+                    <div class="content-block-hashtag">
+                        <span>#NoWonderYouAreAVictim</span><br>
+                        <span>#SureDidntMeanToBeAVictim?</span>
+                    </div>
+                </button>
+
+                <!-- <button class="content-block" onclick="generateLiteratureContent(1)">
+                    <h1>Why Victim Blaming?</h1>
+                </button> -->
+
+                <button class="content-block" onclick="generateLiteratureContent(2)">
+                    <h1>Just World Hypotheses</h1>
+                    <div class="content-block-hashtag">
+                        <span>#FairWorld</span><br>
+                        <span>#PredictableWorld</span><br>
+                        <span>#YouAreTheBiasToBeAVictim</span>
+                    </div>
+                </button>
+
+                <button class="content-block" onclick="generateLiteratureContent(3)">
+                    <h1>Attribution Error</h1>
+                    <div class="content-block-hashtag">
+                        <span>#CauseAndEffect</span><br>
+                        <span>#WhyDontBehaveYourself</span><br>
+                        <span>#WhereTheresSmokeTheresFire</span>
+                    </div>
+                </button>
+
+                <button class="content-block" onclick="generateLiteratureContent(4)">
+                    <h1>Invulnerability Theory</h1>
+                    <div class="content-block-hashtag">
+                        <span>#WeAreDifferent</span><br>
+                        <span>#YouPutYourselfInDanger</span><br>
+                        <span>#BlamingVictimMakesMeFeeStronger</span>
+                    </div>
+                </button>
+
+                <button class="content-block" onclick="generateLiteratureContent(5)">
+                    <h1>Gender Inequality</h1>
+                </button>
+
+            </div>
+        </div>
+
+
+        <footer id="theFooter"></footer>
+
+        <div class="stage-items-description-hidden" id="description">
+            <div class="stage-items-description-top unselectable">
+                <span class="stage-items-description-title" id="description-name">
+                    Jeny Smith
+                </span>
+                <a class="stage-items-description-exit" onclick="closeDescription()"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="stage-items-description-content hyphenate" id="description-content">
+                
+            </div>
+        </div>
+        
+        <script>
+			initialize();
+		</script>
+    </body>
+</html>

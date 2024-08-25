@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Victim Blaming</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/b5f23c0db8.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="./css/storiesStyle.css">
+        <script type="text/javascript" src="./js/mainJS.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.6.1.js"></script>
+
+        <link rel="preload" as="image" href="./images/comments/comment_1.png">
+        <link rel="preload" as="image" href="./images/comments/comment_2.png">
+        <link rel="preload" as="image" href="./images/userPictures/user_1.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_2.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_3.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_4.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_5.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_6.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_7.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_8.jpg">
+        <link rel="preload" as="image" href="./images/userPictures/user_9.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_3.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_4.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_5.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_9.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_11.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_13.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_14.jpg">
+        <link rel="preload" as="image" href="./images/wearing/wearing_15.jpg">
+    </head>
+
+    <body lang="en">
+    	<nav class="menu" id="theIcon"></nav>
+
+		<div class="main-content">
+			<div class="stage-container">
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_3.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Sexy Swimsuit</span>
+							<span class="stage-items-text">
+								A swimsuit. We had been canoeing at the river all day. It had been a really fun time. Then they came in to my tent when I was trying to change clothes.
+							</span>
+							<button onclick="popDescription(0)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_4.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Dress Shirt</span>
+							<span class="stage-items-text">
+								Khakis and a dress shirt. I had to give a presentation that day in my communications class. They took my clothes at the hospital during my rape exam. I'm not sure what happened to them.
+							</span>
+							<button onclick="popDescription(1)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_5.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Cute mini-dress</span>
+							<span class="stage-items-text">
+								A cute mini-dress. I loved it the moment I saw it. I had some killer heels, too. I just wanted to have a good time that night, look cute, and hang with my sisters. He kept getting me shots, over and over again. The next thing I remember is crawling around on the floor looking for that stupid dress.
+							</span>
+							<button onclick="popDescription(2)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_9.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Navy Blue Tank</span>
+							<span class="stage-items-text">
+								Navy blue tank and plaid shorts. Nothing special - no make-up - and sandals. We were just supposed to be hanging out. I didn't think anything about it.
+							</span>
+							<button onclick="popDescription(3)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_11.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Nike Shorts</span>
+							<span class="stage-items-text">
+								Nike shorts and a concert sweatshirt. Seems so normal. So every day. It was too, just any other day, except for this. Except for what happened.
+							</span>
+							<button onclick="popDescription(4)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_13.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Fashion Jean shirt</span>
+							<span class="stage-items-text">
+								Jean shirt, jeans, and Toms. Everyone seems so confused when I tell them this. Like they can't understand what I am saying. They can't understand what I was wearing. It's almost funny. Almost.
+							</span>
+							<button onclick="popDescription(5)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_14.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Tie Dye Shirt</span>
+							<span class="stage-items-text">
+								Jeans and an oversized tie dye shirt. She was like a sister to me. There had never been anything like that between us. Then it was like a switch flipped in her and all of a sudden what I didn't want didn't matter.
+							</span>
+							<button onclick="popDescription(6)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="stage-items-container">
+					<div class="stage-items">
+						<div class="stage-items-top">
+							<img class="stage-image" src="./images/wearing/wearing_15.jpg" draggable="false">
+						</div>
+						<div class="stage-items-bottom">
+							<span class="stage-items-title">Army Combat Uniform</span>
+							<span class="stage-items-text">
+								Army Combat Uniform's and I was carrying a gun. So much for that preventing anything.
+							</span>
+							<button onclick="popDescription(7)" class="basicButton stage-button-more"></button>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+	    </div>
+
+		<footer id="theFooter"></footer>
+
+        <div class="stage-items-description-hidden" id="description">
+			<div class="stage-items-description-top unselectable">
+				<span class="stage-items-description-title" id="description-name"></span>
+				<a class="stage-items-description-exit" onclick="closeDescription()"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+			</div>
+			<div class="stage-items-description-content hyphenate unselectable" id="description-content"></div>
+		</div>
+
+		<div class="notification-hidden" id="notification">
+            <img class="notification-image unselectable" id="notification-image" draggable="false">
+            <div class="notification-container unselectable">
+                <div class="notification-content-container1">
+                    <span class="notification-username" id="notification-username"></span>
+                    <span class="notification-time">now</span>
+                </div>
+                <div class="notification-content-container2">
+                    <span class="notification-text" id="notification-text"></span>
+                </div>
+            </div>
+			<button class="notification-button-more" onclick="displayTaiwanCondition()">Detail</button>
+        </div>
+
+		
+		<script>
+			// generateStoryItems();
+			addText(".stage-button-more", "More");
+			initialize();
+			
+			let popNotify = setInterval(() => {
+				if (rollDie(0.4)) {
+					popNotification();
+					console.log("notification poped");
+				}
+				console.log("Die rolled");
+			}, 5000);
+		</script>
+    </body>
+</html>

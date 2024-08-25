@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Victim Blaming</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b5f23c0db8.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="./css/motivationStyle.css">
+        <script type="text/javascript" src="./js/mainJS.js"></script>
+        <script type="text/javascript" src="./js/jquery-3.6.1.js"></script>
+    </head>
+
+    <body>
+        <nav class="menu" id="theIcon"></nav>
+
+        <div class="main-content">
+            <div class="main-content-boxes unselectable">
+                <div class="first-section">
+                    <div>
+                        <span class="text">Imagine enduring a terrifying sexual attack.<br>
+                            Bruised and shaken,<br>
+                            you recount what happened to the police<br>only for them to turn the tables on you,</span><br>
+                        <span class="text">by asking,</span><br>
+                    </div>
+                    <span class="highlight">What Were You Wearing?</span>
+                </div>
+
+                <div class="second-section">
+                    <div>
+                        <span class="text">This, along with other offensive questions are consistently put to traumatized victims around the world - placing blame on their shoulders for a crime perpetrated against them.</span><br>
+                        <span class="text"></span><br>
+                    </div>
+                    <img class="content-image" src="./images/motivation_side_image.jpg"><br>
+                    <div id="image-info">
+                        <span>Picture from </span>
+                        <a target="_blank" id="image-info" href="https://feminisminindia.com/2019/12/20/victim-blaming-garb-women-empowerment/">Feminism In India</a>
+                    </div>
+
+                    <button class="basicButton read-more-button" onclick="popMoreMoti()">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <footer id="theFooter"></footer>
+
+        <div class="stage-items-description-hidden" id="description">
+            <div class="stage-items-description-top unselectable">
+                <span class="stage-items-description-title" id="description-name"></span>
+                <a class="stage-items-description-exit" onclick="closeDescription()"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="stage-items-description-content hyphenate unselectable" id="description-content"></div>
+        </div>
+
+        <script>
+			initialize();
+		</script>
+    </body>
+</html>
